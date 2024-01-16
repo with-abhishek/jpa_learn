@@ -26,7 +26,7 @@ public class StudentRepo {
 		tx.begin();
 		Student find = entityManager.find(Student.class, id);
 		System.out.println("Find: " + find);
-		find.setName(find.getName() + "Jo");
+		find.setName(find.getName() + "Shivam");
 		System.out.println("Update: " + find);
 		tx.commit();
 		System.out.println("<<<<<<<<<<<<<<  findAndUpdate <<<<<<<<<<<<<<");

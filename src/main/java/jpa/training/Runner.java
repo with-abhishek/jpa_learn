@@ -7,8 +7,8 @@ public class Runner {
 	
 	static StudentRepo stuRepo = new StudentRepo();
 	public static void main(String[] args) {
-		save();
-//		stuRepo.findAndUpdate(1);
+//		save();
+		stuRepo.findAndUpdate(1);
 //		stuRepo.findAndDelete(3);
 //		System.out.println("Operation completed");
 //		
